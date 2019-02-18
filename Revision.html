@@ -73,5 +73,45 @@
                     <td>Cell 3</td>
                 </tr>
             </table>
+        
+        <h1>What are forms and how to make them?</h1>
+        <p>The HTML "form" elements defines a web form that can be used to collect a users information.</p>
+        <p><i>Note: That the form will <strong>not</strong> work if there is no backend script to run the form.</i></p>
+        <p>A number of elements are used to make up teh form</p>
+        <ul>
+            <li>The "form" element defines the form. Additional elements that help run the form are "action, method, get and post"</li>
+            <li>The "input" element defines the user input. Additional elemenst are type="text", type="password", type="checkbox",
+                 type="radio" and type="submit".</li>
+            <li>The "textarea" element defines a large multi-line textbox.</li>
+            <li>The "select" element works with the "option" element to create a drop-down select box.</li>
+            <li>The "names" element is important as <i>form-handling scripts</i> need feild names to run</li>            
+        </ul>
+        <p>Example></p>
+        <form action="contactus.php" method="post">
+            <p>Name:</p>
+            <p><input type="text" name="name" value="Your Name"></p>
+            <p><i>Take note of the following:</p>
+                <ol>
+                    <li> The "value" attribute is <strong>not</strong> required as it will simpy fill the box with the specified value.</i></li>
+                    <li> The "type="text""" attribute is <strong>not</strong> required as by defualt all inputs are text type.</li>
+                </ol>
+            <p>Surname:</p>
+            <p><input name="Surname:"></p>
+            <p>Comments:</p>
+            <p><textarea name="Comments" rows="5" cols="20">Your comments</textarea></p>
+            <p><i>Take note of the following:</p>
+                <ol>
+                    <li> The "rows and cols" attributes are defining the size of the "textarea" element.</i></li>
+                    <li> All content within the "textarea" tags will be displayed in the text area box.</li>
+                </ol>
+            <p>Are you:</p>
+            <p><input type="radio" name="areyou" value="male">Male</p>
+            <p><input type="radio" name="areyou" value="female">Female</p>
+            <p><input type="radio" name="areyou" value="other">Other</p>
+            <p>Subscribe to our newsletter?</p>
+            <p><input type="checkbox" name="newsletter" value="yes">Yes</p>
+            <p><input type="checkbox" name="t's&c's" value="fine">Fine</p>
+            <p><input type="submit"></p>
+        </form>
     </body>
 </html>
