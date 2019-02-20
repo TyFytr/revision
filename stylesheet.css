@@ -42,8 +42,9 @@ table.center {
 #h1_main {
     font-size: 50px;
     font-family: arial;
-    color: blue;
+    color: maroon;
     padding-top: 1px;
+    margin-bottom: 1px;
 }
 
 tr {
