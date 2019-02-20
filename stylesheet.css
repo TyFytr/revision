@@ -1,3 +1,6 @@
+body {
+    text-align: center;
+}
 h1 {
     font-family: arial;
     color: red;
@@ -16,3 +19,17 @@ li {
     font-family: arial;
 }
 
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
