@@ -4,6 +4,7 @@ body {
 h1 {
     font-family: arial;
     color: red;
+    padding-top: 50px;
 }
 
 p {
@@ -33,3 +34,18 @@ table.center {
     margin-left:auto; 
     margin-right:auto;
   }
+
+.pad_small {
+    padding-top: 1px;
+}
+
+#h1_main {
+    font-size: 50px;
+    font-family: arial;
+    color: blue;
+    padding-top: 1px;
+}
+
+tr {
+    font-family: arial;
+}
