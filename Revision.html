@@ -153,5 +153,29 @@
                 <p class="large">That sheet must be linked to the HTML pages/documents that will use the CSS</p></li>
         </ol>
 
+        <h1>Grouping and Nesting</h1>
+        <p>Grouping and nesting are the two ways you can simplify your code. For both HTML and CSS</p>
+        <p>Grouping Example</p>
+        <p>The standard way to would be name each selector and add its properties</p>
+        <p> h1 {</p>
+                <p>font-family="arial";</p>
+                <p></p>
+        <p>.a_selector {</p>
+                        <p>font-family="arial";</p>
+                        <p>}</p>
+        <p>This can and does take up a lot of space. We can group these selectors that use the same properties together with the use of a comma.</p>
+        <p>Example</p>
+        <p>h1, .a_selector {</p>
+                            <p>font-family="arial"</p>
+                            <p>}</p>
+        <p>Nesting can help reduce the amount of class and/or ID selectors needed if the CSS is structured well.
+            Nesting can specify properties to selectors within other selectors</p>
+        <p>Example</p>
+        <p> #top {</p>
+                <p>background-color: #ccc;</p>
+                <p>padding: lem;</p>
+                <p>}</p>
+        </p>
+
     </body>
 </html>
